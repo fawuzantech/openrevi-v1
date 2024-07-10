@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1100px;
+    background: white;
+    padding: 20px;
+
+}
+
+.logo {
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: #007bff;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.auth-button a {
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.auth-button .get-started {
+    background-color: #007bff;
+    color: white;
+}
+
+main {
+    padding: 50px;
+    margin-top: 20px;
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.cta-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.cta-button a {
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.getnews {
+    background-color: #007bff;
+    color: white;
+}
+
+.contact-sales {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    padding-top: 70px;
+
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    margin-left: 20px;
+    min-height: 100vh;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    nav ul li {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .auth-button {
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+    }
+
+    .cta-buttons a {
+        margin: 10px 0;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    .cta-buttons a {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}
