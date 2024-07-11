@@ -37,7 +37,7 @@ a{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .box{
-    background-image: url('industrytrend.jpg');
+    background-image: url('assets/industrytrend.jpg');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 

@@ -38,7 +38,7 @@ h2{
     }
 
 .box{
-    background-image: url('company.jpg');
+    background-image: url('assets/company.jpg');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 

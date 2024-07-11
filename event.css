@@ -37,7 +37,7 @@ a{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .box{
-    background-image: url('opinions.jpg');
+    background-image: url('assets/events.jpg');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
