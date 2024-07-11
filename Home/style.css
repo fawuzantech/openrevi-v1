@@ -34,7 +34,6 @@ header {
     color: #007bff;
 }
 
-
 nav ul {
     list-style: none;
     display: flex;
@@ -71,7 +70,13 @@ main {
     text-align: center;
 }
 
-h1 {
+h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+h1{
     font-size: 36px;
     margin-bottom: 20px;
     color: #333;
@@ -107,7 +112,7 @@ h1 {
     display: flex;
     width: 100%;
     padding-top: 70px;
-
+    bottom: 0;
 }
 
 .footer ul li a {
@@ -116,6 +121,34 @@ h1 {
     font-size: 16px;
     margin-left: 20px;
     min-height: 100vh;
+}
+
+/* code for reviews */
+.review {
+    padding-top: 40px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #fff;
+    border: solid 0.25rem black;
+    box-shadow:
+    1rem 1rem 0 -0.25rem #ceeef8,
+    1rem 1rem 0 0 black;
+}
+
+.review .author {
+    font-weight: bold;
+    color: #333;
+}
+
+.review .content {
+    margin-top: 5px;
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color:rgba(255,255,255,0) ;
 }
 
 /* Media Queries */
@@ -167,3 +200,4 @@ h1 {
         padding: 10px 20px;
     }
 }
+ 
